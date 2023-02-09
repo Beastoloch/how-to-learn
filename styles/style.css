@@ -36,9 +36,6 @@
   font-size: 102px;
   font-weight: 600;
   line-height: 96px;
-}
-
-.header__title_place {
   margin: 0 64px;
   width: 730px;
   justify-self: start;
@@ -50,9 +47,6 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
-}
-
-.header__subtitle_place {
   width: 388px;
   position: absolute;
   bottom: 30px;
@@ -71,22 +65,15 @@
   background-image: url(../images/header-image.png);
   background-size: cover;
   z-index: 1;
-}
-
-.header__main-illustration_place {
   position: absolute;
   bottom: 0;
   right: 0;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
-}
-
-.header__square-pic_place {
   position: absolute;
   top: 64px;
   right: 0;
@@ -100,7 +87,7 @@
   width: 80%;
 }
 
-.two-columns_space{
+.two-columns_place_center{
   margin: 100px auto;
 }
 
@@ -116,9 +103,6 @@
 .two-columns__main-text{
   width: 80%;
   min-width: 784px;
-}
-
-.two-columns__main-text_place{
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -142,7 +126,7 @@ p span{
   flex-direction: column;
 }
 
-.section_centered-block{
+.centered-block{
   width: 60%;
   text-align: center;
 }
@@ -197,9 +181,6 @@ p span{
   position: relative;
   height: 890px;
   flex-direction: column;
-}
-
-.feynman_background{
   background-color: #f2f2f2;
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
@@ -222,12 +203,6 @@ p span{
   margin: 0 auto 0;
 }
 
-.feynman__link_place{
-  position: absolute;
-  top:50%;
-  right: 0;
-}
-
 .feynman__link{
   font-size: 36px;
   font-weight: normal;
@@ -236,13 +211,22 @@ p span{
   text-decoration: none;
 }
 
+.feynman__link_place_right{
+  position: absolute;
+  top:50%;
+  right: 48px;
+}
+
 .kaufman{
-  background-color: #1f1f1f;
   display: flex;
   flex-direction: column;
-  padding-top: 90px;
   position: relative;
   overflow: hidden;
+}
+
+.kaufman_theme_dark{
+  background-color: #1f1f1f;
+  padding-top: 90px;
 }
 
 .kaufman__triangle{
@@ -283,7 +267,7 @@ p span{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  color: white;
+  color: #fff;
   width: 90%;
   margin: 60px auto 40px;
   position: relative;
@@ -334,17 +318,17 @@ p span{
   flex-direction: column;
 }
 
-.footer__column-links_text{
-  margin: 0;
-}
-
-.column-link{
+.footer__column-link{
   color: #fff;
   text-decoration: none;
+}
+
+.footer__column-links_text_rows{
+  margin: 0;
 }
 
 .footer__social-icon{
   width: 16px;
   height: 16px;
-  margin: 0 10px -2px 0;
+  margin-right: 10px;
 }
