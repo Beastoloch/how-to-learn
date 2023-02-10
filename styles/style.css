@@ -229,7 +229,6 @@
 
 .table_theme_dark{
   margin-bottom: 90px;
-  z-index: 1;
 }
 
 .table__cell_theme_dark {
@@ -302,10 +301,6 @@
 .footer__column-link{
   color: #fff;
   text-decoration: none;
-}
-
-.footer__column-links_text_rows{
-  margin: 0;
 }
 
 .footer__social-icon{
