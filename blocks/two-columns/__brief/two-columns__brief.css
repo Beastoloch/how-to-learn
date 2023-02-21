@@ -5,4 +5,5 @@
   color: #2f80ed;
   width: 175px;
   margin: 0;
+  align-self: flex-start;
 }

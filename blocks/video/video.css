@@ -1,5 +1,5 @@
-.digits{
+.video{
   display: flex;
   flex-direction: column;
-  margin: 100px 0;
+  margin-bottom: -60px;
 }
